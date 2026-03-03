@@ -1,0 +1,6 @@
+<resources>
+    <color name="blackbox_primary">#111111</color>
+    <color name="blackbox_on_primary">#FFFFFF</color>
+    <color name="blackbox_background">#0F0F10</color>
+    <color name="blackbox_on_background">#ECECEC</color>
+</resources>
