@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Call Recorder – Black Box</string>
+    <string name="notification_title">Recording Call</string>
+    <string name="notification_text">Call recording in progress...</string>
+    <string name="notification_channel_name">Call Recording</string>
+    <string name="privacy_disclosure_title">Legal Notice</string>
+    <string name="privacy_disclosure_message">This app records phone calls using your microphone. You are responsible for complying with local laws regarding call recording.</string>
+    <string name="accept">Accept</string>
+    <string name="exit">Exit</string>
+    <string name="ok">OK</string>
+    <string name="free_limit_reached">Free limit reached. Upgrade to continue recording.</string>
+    <string name="remaining_format">Remaining free recordings: %1$d</string>
+    <string name="premium_active">Premium plan active</string>
+    <string name="version_format">Version: %1$s</string>
+</resources>
