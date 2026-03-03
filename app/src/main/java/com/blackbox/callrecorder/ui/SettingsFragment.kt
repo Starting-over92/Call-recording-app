@@ -5,7 +5,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import com.blackbox.callrecorder.BuildConfig
 import com.blackbox.callrecorder.R
 import com.blackbox.callrecorder.billing.BillingManager
 import com.blackbox.callrecorder.databinding.FragmentSettingsBinding
@@ -37,8 +36,7 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
             startActivity(Intent(Intent.ACTION_VIEW, url))
         }
 
-        binding.tvVersion.text = getString(R.string.version_format, BuildConfig.VERSION_NAME)
-    }
+        binding.tvVersion.text = getString(R.string.version_format, "1.0")    }
 
     override fun onDestroyView() {
         billingManager?.endConnection()
